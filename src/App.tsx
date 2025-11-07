@@ -24,7 +24,7 @@ function App() {
 
 		try {
 			const response = await axios.get<DomainResult>(
-				"http://localhost:3001/api/domains",
+				"https://domain-finder-backend-lgpk.onrender.com/api/domains",
 				{
 					params: { keyword, tld },
 				}
